@@ -16,7 +16,10 @@
 alias doci="docker images"
 alias docc="docker container ls"
 
-
+#-----------------
+# shortcut to places
+#-----------------
+alias dotfiles="cd ~/src/dotfiles"
 
 #-----------------
 # mysql
