@@ -15,8 +15,6 @@ for file in ~/.{bash_prompt,aliases,git-completion}.bash; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 
-source ~/.profile
-
 # load nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
