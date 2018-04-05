@@ -6,10 +6,6 @@
 #
 #============================================================
 
-#-------------------
-# Personnal Aliases
-#-------------------
-
 #------------------
 # docker
 #------------------
@@ -20,13 +16,6 @@ alias docc="docker container ls"
 # shortcut to places
 #-----------------
 alias dotfiles="cd ~/src/dotfiles"
-
-#-----------------
-# mysql
-#-----------------
-# alias mysqlstart="/opt/boxen/homebrew/bin/mysql.server start"
-# alias mysql="/opt/boxen/homebrew/bin/mysql"
-# alias echobin="ECHO /opt/boxen/homebrew/bin/"
 
 #-----------------
 # vagrant
@@ -68,8 +57,6 @@ gitbrANDrr() {
     gitbrD $1 && gitbrDr $1
 }
 alias gitbrDall=gitbrANDrr
-
-# git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 alias h="history"
 alias j="jobs -l"
